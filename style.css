@@ -1,0 +1,56 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 16px;
+    gap: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.hero .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50%;
+}
+
+.hero .content img {
+    height: auto;
+    width: 300px;
+}
+
+.hero .content .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9FaF8
+}
+
+.hero .content .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .content .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
