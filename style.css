@@ -175,3 +175,10 @@ body {
     border-radius: 10px;
     width: 15%;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding: 24px;
+    color: #E5E7EB;
+    text-align: center;
+}
