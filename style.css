@@ -8,13 +8,18 @@ body {
     border: 0px;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 48px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 48px;
+    padding-bottom: 48px;;
     gap: 16px;
 }
 
@@ -44,12 +49,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50%;
+    gap: 15%;
 }
 
-.hero .content img {
-    height: auto;
-    width: 250px;
+.hero .content .headerImage {
+    color: #E5E7EB;
+    background-color: gray;
+    text-align: center;
+    line-height: 260px;
+    width: 100%;
+    height: 260px;
 }
 
 .hero .content .main-text {
@@ -76,4 +85,32 @@ body {
     width: 128px;
     margin-top: 36px;
     border-radius: 10px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-header {
+    text-align: center;
+    padding: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.box {
+    width: 128px;
+    text-align: center;
+    font-size: small;
 }
