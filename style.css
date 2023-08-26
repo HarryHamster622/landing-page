@@ -37,7 +37,7 @@ body {
 
 .header-links {
     display: flex;
-    gap: 16px;
+    gap: 36px;
 }
 
 .header-link {
@@ -105,22 +105,42 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5%;
-    margin-left: 36px;
-    margin-right: 36px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .box {
-    width: 128px;
+    width: 156px;
     text-align: center;
-    font-size: small;
     color: gray;
 }
 
 .boxImage {
-    width: 128px;
-    height: 128px;
+    width: 156px;
+    height: 156px;
     border: 4px;
     border-color: #3882F6;
     border-style: solid;
     border-radius: 15px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
